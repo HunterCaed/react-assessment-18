@@ -8,8 +8,8 @@ import React, { useState, useEffect } from 'react'
 
 function App() {
 
-  const [ comment, setComment] = useState({})
-  const [ singleComment, setSingleComment] = useState(null)
+  const [ comment, setComment] = useState({}) //the sate for each comment recieved from jsonplaceholder
+  const [ singleComment, setSingleComment] = useState(null)  //wasnt sure if i needed this. 
   
   useEffect(() => {
 
