@@ -1,4 +1,7 @@
-const Comments = () => {
+import React from "react"
+import BodyItem from "./BodyItem"
+
+const Comments = ({comment}) => {
     // Insturction:
     // Use endpoint: https://jsonplaceholder.typicode.com/comments to get a list of comments. 
     // display the comment body on the screen
@@ -8,8 +11,11 @@ const Comments = () => {
 
 
     return(
-        // Replace this with your code.
-        <h1>Comments component</h1>
+        comment.map((current) => (
+            <BodyItem comment={current} key={current.id} />
+
+        ))
+        
     )
 }
 
