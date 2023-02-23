@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.body-comment{
+  color:rgb(60, 25, 177);
+  padding: 10px;
+  font-size: 18px ;
+}
+
+.body-comment:hover{
+  color:black;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

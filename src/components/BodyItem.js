@@ -5,7 +5,7 @@ const handleClick = (e) => {
     console.log(id)
 }
 return (
-    <h1 id={comment.id} onClick={handleClick} >{comment.body}</h1>
+    <h1 className="body-comment" id={comment.id} onClick={handleClick} >{comment.body}</h1>
 )
 
 }

@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="container">
       <Instructions />
-      <Comments  comment={comment}/>
+      <Comments  comment={comment}/> 
     </div>
   );
 }
